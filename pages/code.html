@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=7">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="shortcut icon" href="../images/favicon.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/6.65.7/codemirror.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/6.65.7/theme/panda-syntax.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/6.65.7/addon/hint/show-hint.min.css">
+    <title>AprenDev</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="../images/logo.png" alt="Logo AprenDev">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="../index.html"><i class="fas fa-house"></i> Inicio</a></li>
+                <li><a href="aprender.html"><i class="fas fa-graduation-cap"></i> Aprender</a></li>
+                <li><a href="#" class="active"><i class="fas fa-code"></i> Code editor</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="live-code">
+            <div class="container">
+                
+                <div class="sections">
+                    <h2>HTML</h2>
+
+                    <h2>CSS</h2>
+                </div>
+
+                <div class="code-box">
+                    <div class="editor" id="html"></div>
+                    <div class="editor" id="css"></div>
+                </div>
+                <div class="preview">
+                    <iframe id="live-preview"></iframe>
+                </div>
+        
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-bottom">
+            <div class="footer-bottom-wrapper">
+                <small>Created by <b>Martin Meza</b></small>
+                <div class="social-wrapper">
+                    <div class='social-links'>
+                        <ul>
+                            <li>
+                                <a href="https://github.com/CetzDev" title="GitHub"><i class="fab fa-github"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/in/martinmeza/" title="Linkedin"><i class="fab fa-linkedin"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/6.65.7/codemirror.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/6.65.7/mode/htmlmixed/htmlmixed.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/6.65.7/mode/css/css.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/6.65.7/mode/javascript/javascript.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/6.65.7/addon/edit/closetag.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/6.65.7/addon/edit/closebrackets.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/6.65.7/addon/hint/show-hint.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/6.65.7/mode/xml/xml.min.js"></script>
+
+    <script src="../js/script.js"></script>
+</body>
+</html>

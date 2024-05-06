@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=7">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="shortcut icon" href="../images/favicon.png" type="image/x-icon">
+    <title>AprenDev</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="../images/logo.png" alt="Logo AprenDev">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="../index.html"><i class="fas fa-house"></i> Inicio</a></li>
+                <li><a href="#" class="active"><i class="fas fa-graduation-cap"></i> Aprender</a></li>
+                <li><a href="code.html"><i class="fas fa-code"></i> Code editor</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- HTML -->
+
+        <h2><i class="fab fa-html5"></i> HTML</h2>
+        <section class="tarjetas">
+            <div class="tarjeta">
+                <h3>¿Que es?</h3>
+                <p>El <b>Lenguaje de Marcado de Hipertexto (HTML)</b> es el código que se utiliza para estructurar y
+                    desplegar una página web y sus contenidos.</p>
+            </div>
+            <div class="tarjeta">
+                <h3>¿Para que sirve?</h3>
+                <p>Sirve para definir el texto y otros elementos que compondrán una página web, como imágenes, listas,
+                    vídeos, etc.</p>
+            </div>
+        </section>
+
+        <section class="tarjetas">
+            <div class="tarjeta">
+                <h3>¿Como comienzo?</h3>
+                <p>Deberas comenzar creando un archivo con el nombre <b>index.html</b>, a raiz de eso editar el codigo
+                    de tu archivo y utilizar este para comenzar!</p>
+                <div class="codigo">
+                    <pre id="code">
+&lt;!DOCTYPE html&gt;
+    &lt;html&gt;
+        &lt;head&gt;
+            &lt;meta charset="UTF-8"&gt;
+            &lt;title&gt;Titulo de pagina&lt;/title&gt;
+        &lt;/head&gt;
+        &lt;body&gt;
+        &lt;/body&gt;
+    &lt;/html&gt;
+                    </pre>
+                </div>
+                <button class="Btn" onclick="copyToClipboard();">
+                    <i class="fas fa-copy"></i>
+                    <span class="effect"></span>
+                </button>
+            </div>
+        </section>
+
+        <h2>Etiquetas</h2>
+        <section class="elements">
+        <div class="element">
+            <h4>&lt;h1&gt;</h4>
+            <p>Titulo mas grande. h1 hasta h6</p>
+        </div>
+        <div class="element">
+            <h4>&lt;p&gt;</h4>
+            <p>Parrafo</p>
+        </div>
+        <div class="element">
+            <h4>&lt;a href=""&gt;</h4>
+            <p>Hipervinculo</p>
+        </div>
+        <div class="element">
+            <h4>&lt;img src=""&gt;</h4>
+            <p>Imagen</p>
+        </div>
+        <div class="element">
+            <h4>&lt;hr&gt;</h4>
+            <p>Linea separativa</p>
+        </div>
+        <div class="element">
+            <h4>&lt;br&gt;</h4>
+            <p>Salto de linea</p>
+        </div>
+        <div class="element">
+            <h4>&lt;ul&gt;</h4>
+            <p>Liste desordenada</p>
+        </div>
+        <div class="element">
+            <h4>&lt;ol&gt;</h4>
+            <p>Lista ordenada</p>
+        </div>
+        <div class="element">
+            <h4>&lt;li&gt;</h4>
+            <p>Texto de lista</p>
+        </div>
+        <div class="element">
+            <h4>&lt;div&gt;</h4>
+            <p>Division</p>
+        </div>
+        </section>
+
+        <h2>Formatos</h2>
+
+        <section class="formats">
+        <div class="format">
+            <h4>&lt;b&gt;</h4>
+            <p>Texto en negrita</p>
+        </div>
+        <div class="format">
+            <h4>&lt;strong&gt;</h4>
+            <p>Texto importante</p>
+        </div>
+        <div class="format">
+            <h4>&lt;i&gt;</h4>
+            <p>Texto italico</p>
+        </div>
+        <div class="format">
+            <h4>&lt;em&gt;</h4>
+            <p>Texto enfatizado</p>
+        </div>
+        </section>
+
+        <hr>
+
+        <!-- CSS -->
+        <h2><i class="fab fa-css3"></i> CSS</h2>
+        <section class="tarjetas">
+            <div class="tarjeta">
+                <h3>¿Que es?</h3>
+                <p>El <b>Cascading Style Sheets (CSS)</b> es un lenguaje de programación que sirve para determinar el diseño de los documentos electrónicos</p>
+            </div>
+            <div class="tarjeta">
+                <h3>¿Para que sirve?</h3>
+                <p>Sirve para crear reglas para decirle a tu sitio web cómo quieres mostrar la información y guardar los comandos para elementos de estilo crear reglas para decirle a tu sitio web cómo quieres mostrar la información y guardar los comandos para elementos de estilo</p>
+            </div>
+        </section>
+
+        <div class="selection">
+            <img src="../images/img_selector.png" alt="">
+        </div>
+
+        <section class="tarjetas">
+            <div class="tarjeta">
+                <h3>¿Como conecto mi CSS con mi HTML?</h3>
+                <p>Deberas comenzar creando un archivo con el nombre <b>style.css</b>, a raiz de eso agregar a tu codigo
+                    HTML dentro de head este codigo para comenzar a agregar estilos!</p>
+                <div class="codigo">
+                    <pre id="code">
+&lt;link rel="stylesheet" href="style.css"&gt;
+                    </pre>
+                </div>
+        </section>
+
+        <h2>PROPIEDADES</h2>
+
+        <section class="elements">
+            <div class="element">
+                <h4>color</h4>
+                <p>Color de texto</p>
+            </div>
+            <div class="element">
+                <h4>background-color</h4>
+                <p>Color de fondo</p>
+            </div>
+            <div class="element">
+                <h4>border</h4>
+                <p>Borde de caja</p>
+            </div>
+            <div class="element">
+                <h4>margin</h4>
+                <p>Margen de espacio entre objetos</p>
+            </div>
+            <div class="element">
+                <h4>padding</h4>
+                <p>Espacio del alrededor de una caja</p>
+            </div>
+            <div class="element">
+                <h4>font-family</h4>
+                <p>Tipo de fuente</p>
+            </div>
+            <div class="element">
+                <h4>font-weight</h4>
+                <p>Anchura de texto</p>
+            </div>
+            <div class="element">
+                <h4>text-align</h4>
+                <p>Posicionamiento de texto</p>
+            </div>
+            </section>
+
+    </main>
+
+    <footer>
+        <div class="footer-bottom">
+            <div class="footer-bottom-wrapper">
+                <small>Created by <b>Martin Meza</b></small>
+                <div class="social-wrapper">
+                    <div class='social-links'>
+                        <ul>
+                            <li>
+                                <a href="https://github.com/CetzDev" title="GitHub"><i class="fab fa-github"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/in/martinmeza/" title="Linkedin"><i class="fab fa-linkedin"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+    </footer>
+</body>
+
+<script src="/js/script.js"></script>
+</html>
